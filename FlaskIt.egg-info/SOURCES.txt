@@ -1,0 +1,8 @@
+README.rst
+setup.py
+FlaskIt.egg-info/PKG-INFO
+FlaskIt.egg-info/SOURCES.txt
+FlaskIt.egg-info/dependency_links.txt
+FlaskIt.egg-info/entry_points.txt
+FlaskIt.egg-info/requires.txt
+FlaskIt.egg-info/top_level.txt
