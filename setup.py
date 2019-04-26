@@ -20,6 +20,7 @@ setup(
     ],
     version='1.0.0',
     url='https://github.com/connormullett/FlaskIt',
+    download_url='https://github.com/connormullett/FlaskIt/archive/v1.0.tar.gz',
     entry_points={
         'console_scripts':
             'flaskit=src.main:main'
