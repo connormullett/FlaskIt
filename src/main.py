@@ -15,10 +15,10 @@ def start():
 
     project_name = click.prompt('Enter project name')
 
+    path = os.getcwd()
     if click.confirm('User Authentication?'):
-        path = os.getcwd()
         os.system('git clone %s %s/%s' % (TEMPLATE_URL, path, project_name))
 
     else:
-        pass
+        os.system('git clone %s --branch no-auth %s/%s' % (TEMPLATE_URL, path, project_name))
 
