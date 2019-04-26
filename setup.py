@@ -9,9 +9,17 @@ def read(fname):
 
 setup(
     name='FlaskIt',
+    author='Connor Mullett',
+    description='Flask API starter',
+    long_description=read('README.rst'),
+    keywords='flask api',
+    packages=['src'],
+    license='MIT',
     install_requires=[
         'click'
     ],
+    version='1.0.0',
+    url='https://github.com/connormullett/FlaskIt',
     entry_points={
         'console_scripts':
             'flaskit=src.main:main'
