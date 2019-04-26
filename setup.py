@@ -8,7 +8,7 @@ def read(fname):
 
 
 setup(
-    name='FlaskIt',
+    name='FlaskIt-starter',
     author='Connor Mullett',
     description='Flask API starter',
     long_description=read('README.rst'),
@@ -23,7 +23,7 @@ setup(
     download_url='https://github.com/connormullett/FlaskIt/archive/v1.0.tar.gz',
     entry_points={
         'console_scripts':
-            'flaskit=src.main:main'
+            'flaskit-starter=src.main:main'
     }
 )
 
