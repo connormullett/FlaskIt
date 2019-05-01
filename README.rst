@@ -3,7 +3,7 @@ FlaskIt
 =======
 
 Flask project Builder CLI. Use 
-```flaskit-starter start```
+``flaskit-starter start``
 to build your project
 
 Install
