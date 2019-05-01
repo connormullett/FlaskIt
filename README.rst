@@ -2,7 +2,8 @@
 FlaskIt
 =======
 
-Flask project Builder CLI. Use `flask it start`
+Flask project Builder CLI. Use 
+```flaskit-starter start```
 to build your project
 
 Install
